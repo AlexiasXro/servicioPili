@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Pili/Carrito</title>
+    <!--Style general-->
+    <link href="index_Style.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="styles(carrito).css" type="text/css"--> >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" href="Servicios_Pili_Imagenes/cover2.jpg" type="image/png">
+    <script src="carrito(app).js"></script>
+</head>
+<body>
+    <!--Barra de Navegación-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-fire custom-icon"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carrito" style="color: #ffa977;">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #ffa977">Carnes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #ffa977">Bebidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" style="color: #ffa977">Postres</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> <!--La barra no está completa, ya que quiero separla según los productos que se venden. Por lo que solo
+            es un boceto. 
+            Post data: La barra no se queda arriba cuando el usuario baja. Arreglare ese "bug" después.  -->
+
+  <header>
+        <div class="encabezado">
+            <h1>Carrito de compras</h1>
+        </div>
+  </header>
+
+    <!--Lista del Carrito de compras.-->
+  <section id="carrito" class="droppable"> <!-- Es la imagén que les mostre hoy, la cual actúa como carrito. -->
+        <i class="bi bi-cart4"></i>
+        <ul id="lista-carrito">
+            
+        </ul>
+        <p id="total">Total de pedidos: 0</p>
+  </section>
+
+    <h2>Comidas</h2>
+
+  <section id="productos">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/asado_estaca.png" class="card-img-top" alt="asado a la estaca">
+                        <div class="card-body">
+                          <h5 class="card-title">Asado a la estaca</h5>
+                          <p class="card-text">Carnes a elección: Vacuna, Chivo o Chancho</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>    
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/chorizos.jpg" class="card-img-top" alt="Chorizos">
+                        <div class="card-body">
+                          <h5 class="card-title">Chorizos</h5>
+                          <p class="card-text">Se venden por docena o por kilo según la elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/carneSalsa_conPure.jpg" class="card-img-top" alt="Carne con guarniciones">
+                        <div class="card-body">
+                          <h5 class="card-title">Carne con pure</h5>
+                          <p class="card-text">La guarnición es a elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/morcillas.jpg" class="card-img-top" alt="Morcillas">
+                        <div class="card-body">
+                          <h5 class="card-title">Morcillas</h5>
+                          <p class="card-text">Se venden por docena o por kilo según la elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/picadas.jpg" class="card-img-top" alt="picadas">
+                        <div class="card-body">
+                          <h5 class="card-title">Picadas</h5>
+                          <p class="card-text">Los componentes de la picada serán a elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/sanwiches.jpg" class="card-img-top" alt="sanwiches">
+                        <div class="card-body">
+                          <h5 class="card-title">Sanwiches</h5>
+                          <p class="card-text">Los sanwiches vienen pueden ser de paleta y queso o de verduras.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/piezasEspeciales.jpg" class="card-img-top" alt="pizzas">
+                        <div class="card-body">
+                          <h5 class="card-title">Pizzas</h5>
+                          <p class="card-text">Las pueden ser de tipo especial, con salame o con comunes.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/ensaladas.jpg" class="card-img-top" alt="Ensaladas lechuga">
+                        <div class="card-body">
+                          <h5 class="card-title">Ensalada de lechuga y tomate</h5>
+                          <p class="card-text">Se pueden agregar más ingredientes a elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/ensaladaPapa.jpg" class="card-img-top" alt="Ensalada del papa">
+                        <div class="card-body">
+                          <h5 class="card-title">Ensalada rusa</h5>
+                          <p class="card-text">Los aderesos y ingredientes adicionales son ha elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-6 col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/seleccionPostres.jpg" class="card-img-top" alt="Helados">
+                        <div class="card-body">
+                          <h5 class="card-title">Helados</h5>
+                          <p class="card-text">Los sabores son a elección del cliente.</p>
+                          <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+  </section> <!--Como es una muestra no puse más comidas. Luciano cuando puedas pasame una lista con todo lo que ofrecen. 
+              Yo buscare las imagenes necesarias-->
+    
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+</body>
+</html>

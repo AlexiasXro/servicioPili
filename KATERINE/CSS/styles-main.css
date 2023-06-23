@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    background-image: url(../imagenes/background.jpg);
+    color: white;
+    opacity: 150%;
+    z-index: 2;
+}
+.navbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f000;
+    padding: 10px;
+    justify-content: center;
+    gap: 80px;
+  }  
+  .navbar-left,.navbar-right {
+    display: flex;
+    gap: 40px;
+  }
+ 
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn {
+    background-color: #f5202000;
+    color: #f17300;
+    border-color: ;
+    border-radius: 5%;
+    padding: 4px 26px;
+    margin: 0 4px;
+  }
+.palabra1{
+    color:  #f17300;
+}
+.texto_tam{
+    font-size: 2rem;
+}
+.introduccion{
+    display: flex;
+}
+#cont_sup{
+    position: relative;
+    left: 1rem;
+}
+.contenedor_sup{
+    width: 48%;
+    display: inline-block;
+}
+.gif_asado {
+    position:absolute;
+    height: 50%;
+    width: 40%;
+    border-radius: 10px;
+    z-index: -1;
+}
+#gif{
+    float: right;
+    z-index: 0;
+}
+h1{
+    color: #f17300;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.navegacion.sombra{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+#primero{
+    margin-left: 10rem;
+}
+
+.texto_entrada{
+    color: black;
+
+}
+
+.cont_presupuesto{
+    display: flex;
+    margin-left: 8.5%;
+}
+.presupuesto{
+    background-color: rgba(255, 68, 0, 0.851);
+    padding: 1.2rem;
+    border-radius: 15%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.cont_presupuesto :hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.nosotros{
+    margin-top: 6rem;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    
+}
+.nosotros_text{
+    display: block;
+    text-align: center;
+}
+.nosotros_img {
+    width: 50%;
+    height: 259px;
+    border-style: inset;
+    border-color: red;
+}
+.img_comida{
+    float: left;
+    width: 49%;
+    border-style: groove;
+    height:251.617px;
+}
+.nosotros_redaccion{
+    float: right;
+    width: 50%;
+}
+.redaccion{
+    margin-top: 0%;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+.eventos{
+    width: 100%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.tipos{
+    width: 49.7%;
+    display: inline-block;
+    background-color: #f4998d;
+    align-content: center;
+    transition: transform 0.3s ease-in-out;
+    height: auto;
+}
+.tipos:hover{
+    transform: scale(1.1);
+}
+.format, .evento_social, .evento_corporativo{
+    position: relative;
+    left: 35%;
+    top: 2.7rem;
+}
+.format_maletin{
+    position: relative;
+    left: 35%;
+}
+.evento_social{
+    left: 32%;
+}
+.evento_corporativo{
+    left: 31%;
+    top: 0.2rem;
+}
+.texto_social{
+    position: relative;
+    top: 2.7rem;
+}
+#nosotros_text{
+    display: inline;
+    text-align: center;
+
+}

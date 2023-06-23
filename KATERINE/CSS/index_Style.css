@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+fondo {
+    z-index: -100;
+    position: fixed;
+    height: 100dvh;
+    width: 99dvw;
+    object-fit: cover;
+    filter: blur(4px) brightness(25%);
+    
+}
+
+body {
+    background-color: #070707;
+    background-image:  url(../Imagenes/experimentar/background.jpg);
+    opacity: 0.8;
+}
+
+
+
+.encabezado {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffa977 ;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 15px;
+    border-bottom: 2px solid #ff2e1f;
+}
+
+.boton-index {
+    background-color: #e44a4a;
+    border: 2px solid #e44a4a;;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+}
+
+.boton-index:hover {
+    background-color: #ffffff00;
+    border: 2px solid #e44a4a;
+    cursor: pointer;
+    color: #ffa977;
+    border-radius: 10px;
+}
+
+/*Eventos*/
+.tabla-evento {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+
+/*Contactanos*/
+#Mapagoogle {
+    background: #B67615;
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.redes-instagram .redes-facebook .redes-loading:hover{
+    opacity:0.5;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+@font-face{
+    font-family: Ceraitalic;
+    src: url(fuentes/Cera\ Pro\ Medium.otf)
+    }
+    
+
+.Datos-empresa{
+    color:#B67615
+    
+}
+.input {
+    width: 40%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #c2c2c2;
+    outline: none;
+    color: #070707;
+
+}
+.input::placeholder{
+    color: #080808;
+}
+.inputMensaje {
+    width: 40%;
+
+    padding: 5px 10px
+}
+
+
+/*Galeria*/
+
+.fotografia {
+border-style: groove;
+border-radius: 10px;
+margin: 30px 20px;
+box-shadow: 0 4px 8px rgb(255, 90, 75), 0 6px 0 rgba(0,0,0,0.19);
+}
+#texto {
+    font-size: 35px;
+    top: 290px;
+    right: 140px;
+}
+#texto1 {
+    top: 850px;
+    right: 800px;
+    font-size: 35px;
+}
+#texto2 {
+    font-size: 35px;
+    top: 1500px;
+    right: 80px;
+}
+#texto3 {
+    font-size: 35px;
+    top: 2000px;
+    right: 800px;
+}
+
+/*Carrito de compras*/
+header {
+    padding: 10px;
+    text-align: center;
+    color: sandybrown;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    color: sandybrown;
+    font-size: 50px;
+    color: rgb(214, 204, 204);
+    border: 1px;
+    font-weight: 25px;
+}
+
+i {
+    font-size: 50px;
+    color: rgb(214, 204, 204);
+    border: 1px;
+    font-weight: 25px;
+}
+
+#carrito {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+#lista-carrito {
+    padding: 0;
+    list-style: none;
+}
+
+#lista-carrito li {
+    margin-bottom: 10px;
+}
+
+#total {
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    color: silver;
+}
+
+.custom-icon {
+    color: #ff2e1f;
+}
+
+.container-fluid {
+    padding: 10px;
+    background-color: #070707;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+    border: 0;
+}
+
+.collapse {
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
