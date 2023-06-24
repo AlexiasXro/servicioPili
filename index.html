@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name=”author” content=”Luciano”>
-    <link rel="stylesheet" href="../CSS/styles-main.css">
-    <link rel="stylesheet" href="../CSS/CSS-ico/all.min.css">
+    <link rel="stylesheet" href="assets/CSS/styles-main.css">
+    <link rel="stylesheet" href="assets/CSS/CSS-ico/all.min.css">
     <title>Servicios Pili</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navegacion">
         <div class="navbar-left">
-          <button class="btn">Eventos</button>
-          <button class="btn">Galeria</button>
+          <button class="btn" onclick="redireccionareventos()">Eventos</button>
+          <button class="btn" onclick="redireccionargaleria()">Galeria</button>
         </div>
         <div class="navbar-logo">
           <h1 class="logo">Pili</h1>
         </div>
         <div class="navbar-right">
-          <button class="btn">Pene</button>
-          <button class="btn">Contactos</button>
+          <button class="btn" onclick="redireccionarcarrito()">carrito</button>
+          <button class="btn" onclick="redireccionarcontacto()">Contactos</button>
         </div>
       </nav>
       
@@ -46,11 +46,11 @@
                 </div >
             </article>
             <article class="contenedor_sup" id="gif">
-                <img class="gif_asado" src="imagenes/asado.gif" alt="">
+                <img class="gif_asado" src="assets/imagenes/Comida/asado.gif" alt="">
             </article>
             <br><br>
             <article class="cont_presupuesto">
-                <a class="presupuesto" href="">Tipos de Presupuestos</a>
+                <a class="presupuesto" href="Evento_tabla.html">Tipos de Presupuestos</a>
             </article>
         </section>
         <hr color="orange">
@@ -60,8 +60,8 @@
         <section class="nosotros">
             
             <article class="nosotros_img">
-                <img class="img_comida"  src="imagenes/asadoestaca.jpg" alt="comida 1">
-                <img class="img_comida"  src="imagenes/empanadas.jpg" alt="comida 2">
+                <img class="img_comida"  src="assets/imagenes/Comida/asadoestaca.jpg" alt="comida 1">
+                <img class="img_comida"  src="assets/imagenes/Comida/empanadas.jpg" alt="comida 2">
             </article>
             <article class="nosotros_redaccion">
                 <p class="redaccion">
@@ -78,7 +78,7 @@
         "> 
         <section class="eventos">
             <article class="tipos">
-                <img class="format" src="imagenes/evento_informal.png"></img>
+                <img class="format" src="assets/imagenes/Logo/evento_informal.png"></img>
                 <br>
                 <span class="texto_tam palabra1 evento_social">Eventos Sociales</span>
                 <br>
@@ -91,7 +91,7 @@
                 
             </article>
             <article class="tipos bordes" style="padding-top: 3.56%;">
-                <img class="format_maletin" src="imagenes/evento_corporativo.png" alt="Eventos Coorporativos">
+                <img class="format_maletin" src="assets/imagenes/Logo/evento_corporativo.png" alt="Eventos Coorporativos">
                 <br>
                 <span class="texto_tam palabra1 evento_corporativo">Eventos corporativos</span>
                 <br>
@@ -105,6 +105,7 @@
         </section>
     </main>
 
-    <script src="scripts/scroll.js"></script>
+    <script src="assets/JS/scroll.js"></script>
+    <script src="assets/JS/redirecciones_main.js"></script>
 </body>
 </html>
