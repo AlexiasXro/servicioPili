@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(223, 219, 218);
+}
+
+.encabezado {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bd5315 ;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 15px;
+    border-bottom: 2px solid #ff2e1f;
+}
+.home {
+    text-decoration: none;
+}
+
+.tarjeta {
+    background-color: #ffa977;
+    border-radius: 10px;
+}
+
+.card-center {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.boton_info {
+    background-color: #e44a4a66;
+    border: 2px solid #e44a4a57;;
+
+    font-size: 16px;
+    transition-duration: 0.4s;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    margin: 3px;
+    font-weight:bold;
+}
+
+.boton_info:hover {
+    background-color: #ffffff00;
+    border: 2px solid #e44a4a;
+    cursor: pointer;
+    color: #ffa977;
+    border-radius: 10px;
+}
+
+.link_boton {
+    text-decoration: none;
+    color: black;
+}
+
+.link_boton:hover {
+    font-weight:bold;
+}
+
+.card-title {
+    padding-left: 5px;
+    font-weight:bold ;
+}
+
+.card-text {
+    padding-left: 5px;
+}
+
