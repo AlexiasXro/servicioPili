@@ -219,3 +219,64 @@ i {
     right: 0;
     font-size: 20px;
 }
+
+header {
+    padding: 10px;
+    text-align: center;
+    color: sandybrown;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    color: sandybrown;
+    font-size: 50px;
+    color: rgb(214, 204, 204);
+    border: 1px;
+    font-weight: 25px;
+}
+
+i {
+    font-size: 50px;
+    color: rgb(214, 204, 204);
+    border: 1px;
+    font-weight: 25px;
+}
+
+#carrito {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+#lista-carrito {
+    padding: 0;
+    list-style: none;
+}
+
+#lista-carrito li {
+    margin-bottom: 10px;
+}
+
+#total {
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+    color: silver;
+}
+
+.custom-icon {
+    color: #ff2e1f;
+}
+
+.container-fluid {
+    padding: 10px;
+    background-color: #070707;
+    margin: 0;
+    padding: 0
+}
+
+.navbar {
+    padding: 0;
+    border: 0;
+}
