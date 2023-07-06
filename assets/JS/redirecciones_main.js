@@ -2,7 +2,7 @@ function redireccionargaleria() {
     window.location.href = 'Galeria.html';
   }
 function redireccionareventos() {
-    window.location.href = 'Evento_tabla.html';
+    window.location.href = 'evento-main.html';
   }
 function redireccionarcontacto() {
     window.location.href = 'Contacta-formulario.html';
